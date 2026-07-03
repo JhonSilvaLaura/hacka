@@ -1,12 +1,10 @@
 export interface User {
   id?: number;
-  username: string;
-  email: string;
-  firstName: string;
-  lastName: string;
-  phone?: string;
-  address?: string;
-  status?: 'ACTIVE' | 'INACTIVE' | 'SUSPENDED';
-  createdAt?: string;
-  updatedAt?: string;
+  dni: string;
+  nombres: string;
+  apellidos: string;
+  celular: string;
+  correo: string;
+  licencia: string;
+  estado?: 'ACTIVE' | 'INACTIVE'
 }

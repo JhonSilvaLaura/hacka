@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: jhon-silva-backend
-          image: jhonbrayansilvalaura/jhon-silva-be:1.0
+          image: jhonbrayansilvalaura/hct-cliente:latest
           imagePullPolicy: Always
           ports:
             - name: http
