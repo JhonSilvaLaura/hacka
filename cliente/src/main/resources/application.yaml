@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: jhon
+  r2dbc:
+    url: r2dbc:postgresql://ep-rough-violet-adi6ri0k-pooler.c-2.us-east-1.aws.neon.tech/hackathon?sslmode=require&channel_binding=require
+    username: neondb_owner
+    password: npg_pHT4NJx3gnSG
